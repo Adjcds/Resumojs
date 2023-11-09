@@ -226,3 +226,76 @@ animais.sort();
 // Escalabilidade: A aplicação em camadas permite que você dimensione seu sistema de acordo com as necessidades. Ao adicionar ou remover servidores, serviços ou instâncias de banco de dados, você pode facilmente dimensionar a camada apropriada.
 
 // Ferramentas e Frameworks: Existem muitas bibliotecas e frameworks disponíveis em JavaScript para ajudar na implementação de cada camada, como React, Vue.js, Angular, Node.js, Express.js, e vários outros. Escolha as ferramentas que melhor atendam às necessidades do seu projeto.
+
+// REACT
+
+// 1. Criar um componente:
+// Um componente React é uma parte reutilizável de uma interface de usuário. Aqui está um exemplo simples de como criar um componente:
+
+
+// import React from 'react';
+// class MeuComponente extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         <h1>Meu Primeiro Componente React</h1>
+//         <p>Este é um componente React simples.</p>
+//       </div>
+//     );
+//   }
+// }
+
+// export default MeuComponente;
+
+// // Neste exemplo, MeuComponente é um componente React que renderiza um título e um parágrafo.
+// // 2. Exportar um componente:
+// // Para tornar um componente acessível em outros arquivos, você precisa exportá-lo. O export pode ser feito no final do arquivo:
+
+
+// export default MeuComponente;
+
+// // Isso permite que outros arquivos importem e usem o componente.
+
+// // 3. Importar um componente:
+// // Para usar o componente exportado em outro arquivo, você pode importá-lo da seguinte forma:
+
+
+// import React from 'react';
+// import MeuComponente from './MeuComponente';
+
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         <MeuComponente />
+//         <p>Outro conteúdo da aplicação.</p>
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
+// // App;
+// // Neste exemplo, MeuComponente é importado e usado dentro do componente App.
+
+// // 4. Estilizar utilizando CSS:
+// // Você pode estilizar componentes React usando CSS. Aqui está um exemplo de como aplicar estilos a um componente:
+
+
+// import React from 'react';
+// import './MeuComponente.css'; // Importa um arquivo CSS externo
+
+// class MeuComponente extends React.Component {
+//   render() {
+//     return (
+//       <div className="meu-componente">
+//         <h1>Meu Primeiro Componente React</h1>
+//         <p className="paragrafo">Este é um componente React simples.</p>
+//       </div>
+//     );
+//   }
+// }
+
+// export default MeuComponente;
+
+// // Neste exemplo, um arquivo CSS externo chamado MeuComponente.css é importado e as classes CSS são aplicadas aos elementos do componente.
